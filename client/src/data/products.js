@@ -235,6 +235,25 @@ export const products = [
     features: ['Water-resistant fabric', 'Adjustable straps', 'Leash opening', 'Lightweight & comfy'],
     stock: 28,
     featured: false
+  },
+  {
+    id: 'p13',
+    name: 'Snuffle Puzzle Enrichment Mat for Dogs',
+    category: 'toys',
+    price: 24.99,
+    originalPrice: 29.99,
+    rating: 4.8,
+    reviews: 143,
+    badge: 'Dog Enrichment',
+    image: 'https://images.unsplash.com/photo-1601758174114-e711c0cbaa69?auto=format&fit=crop&w=900&q=80',
+    images: [
+      'https://images.unsplash.com/photo-1601758174114-e711c0cbaa69?auto=format&fit=crop&w=900&q=80',
+      'https://images.unsplash.com/photo-1587300003388-59208cc962cb?auto=format&fit=crop&w=900&q=80'
+    ],
+    description: 'A stimulating dog enrichment snuffle mat that encourages natural foraging, reduces boredom, and turns treat time into a fun mental workout.',
+    features: ['Dog enrichment design', 'Encourages natural foraging', 'Non-slip base', 'Machine washable'],
+    stock: 32,
+    featured: true
   }
 ];
 
