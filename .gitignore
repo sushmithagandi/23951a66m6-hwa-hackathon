@@ -1,11 +1,19 @@
 node_modules/
+client/node_modules
+server/node_modules
 .hwa/
 .vercel/
 .env*
+.env
+.env.*
 init.py
 init (*).py
 submit.py
 hwa-start.*
 .DS_Store
+client/dist
 dist/
-.vercel
+server/data/db.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
