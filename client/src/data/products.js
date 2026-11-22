@@ -1,10 +1,10 @@
 export const categories = [
-  { slug: 'dog-food', name: 'Dog Food', icon: '🦴', description: 'Nutritious meals for every pup.', image: 'https://images.unsplash.com/photo-1568640347023-a616a30bc3bd?auto=format&fit=crop&w=900&q=80' },
-  { slug: 'cat-food', name: 'Cat Food', icon: '🐟', description: 'Delicious recipes cats crave.', image: 'https://images.unsplash.com/photo-1574158622682-e40e69881006?auto=format&fit=crop&w=900&q=80' },
-  { slug: 'toys', name: 'Pet Toys', icon: '🎾', description: 'Playtime favorites for all pets.', image: 'https://images.unsplash.com/photo-1545249390-6bdfa286032f?auto=format&fit=crop&w=900&q=80' },
-  { slug: 'accessories', name: 'Accessories', icon: '🦮', description: 'Stylish essentials for daily adventures.', image: 'https://images.unsplash.com/photo-1601758228041-f3b2795255f1?auto=format&fit=crop&w=900&q=80' },
-  { slug: 'grooming', name: 'Grooming', icon: '🛁', description: 'Keep pets fresh, clean, and happy.', image: 'https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?auto=format&fit=crop&w=900&q=80' },
-  { slug: 'beds-clothing', name: 'Beds & Clothing', icon: '🛏️', description: 'Cozy comfort and cute outfits.', image: 'https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?auto=format&fit=crop&w=900&q=80' }
+  { slug: 'dog-food', name: 'Dog Food', icon: 'ðŸ¦´', description: 'Nutritious meals for every pup.', image: 'https://images.unsplash.com/photo-1568640347023-a616a30bc3bd?auto=format&fit=crop&w=900&q=80' },
+  { slug: 'cat-food', name: 'Cat Food', icon: 'ðŸŸ', description: 'Delicious recipes cats crave.', image: 'https://images.unsplash.com/photo-1574158622682-e40e69881006?auto=format&fit=crop&w=900&q=80' },
+  { slug: 'toys', name: 'Pet Toys', icon: 'ðŸŽ¾', description: 'Playtime favorites for all pets.', image: 'https://images.unsplash.com/photo-1545249390-6bdfa286032f?auto=format&fit=crop&w=900&q=80' },
+  { slug: 'accessories', name: 'Accessories', icon: 'ðŸ¦®', description: 'Stylish essentials for daily adventures.', image: 'https://images.unsplash.com/photo-1601758228041-f3b2795255f1?auto=format&fit=crop&w=900&q=80' },
+  { slug: 'grooming', name: 'Grooming', icon: 'ðŸ›', description: 'Keep pets fresh, clean, and happy.', image: 'https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?auto=format&fit=crop&w=900&q=80' },
+  { slug: 'beds-clothing', name: 'Beds & Clothing', icon: 'ðŸ›ï¸', description: 'Cozy comfort and cute outfits.', image: 'https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?auto=format&fit=crop&w=900&q=80' }
 ];
 
 export const products = [
@@ -238,21 +238,21 @@ export const products = [
   },
   {
     id: 'p13',
-    name: 'Snuffle Puzzle Enrichment Mat for Dogs',
+    name: 'CalmCompanion Treat-Dispensing Enrichment Toy',
     category: 'toys',
-    price: 24.99,
-    originalPrice: 29.99,
-    rating: 4.8,
-    reviews: 143,
+    price: 26.99,
+    originalPrice: 32.99,
+    rating: 4.9,
+    reviews: 187,
     badge: 'Dog Enrichment',
-    image: 'https://images.unsplash.com/photo-1601758174114-e711c0cbaa69?auto=format&fit=crop&w=900&q=80',
+    image: 'https://images.unsplash.com/photo-1587300003388-59208cc962cb?auto=format&fit=crop&w=900&q=80',
     images: [
-      'https://images.unsplash.com/photo-1601758174114-e711c0cbaa69?auto=format&fit=crop&w=900&q=80',
-      'https://images.unsplash.com/photo-1587300003388-59208cc962cb?auto=format&fit=crop&w=900&q=80'
+      'https://images.unsplash.com/photo-1587300003388-59208cc962cb?auto=format&fit=crop&w=900&q=80',
+      'https://images.unsplash.com/photo-1601758174114-e711c0cbaa69?auto=format&fit=crop&w=900&q=80'
     ],
-    description: 'A stimulating dog enrichment snuffle mat that encourages natural foraging, reduces boredom, and turns treat time into a fun mental workout.',
-    features: ['Dog enrichment design', 'Encourages natural foraging', 'Non-slip base', 'Machine washable'],
-    stock: 32,
+    description: 'A calming dog enrichment toy designed to keep your pup happily occupied when home alone. Fill it with treats or kibble to encourage slow, focused play that reduces boredom and separation stress.',
+    features: ['Treat-dispensing enrichment', 'Helps reduce boredom when alone', 'Promotes calm, focused play', 'Durable, pet-safe material'],
+    stock: 30,
     featured: true
   }
 ];
